@@ -256,7 +256,7 @@ header#top nav ul li a.nav-cta {
 		margin-top: 64px;
 	}
 	#banner p.subtitle {
-	 font-size: 16px;
+	 	font-size: 16px;
 	}
 }
 
@@ -416,14 +416,14 @@ ul.services-list li:last-of-type {
 	padding: 0 40px 0 10%;
 }
 
-.text-section .image.align-center {
-	
-}
-
 .text-section .text.align-center {
 	text-align: center;
 	width: 80%;
 	margin: 0 auto;
+}
+
+.text-section .image.align-center {
+	
 }
 
 .text-section .text.align-center p.subtitle {
@@ -710,9 +710,16 @@ ul.portfolio-list li a:hover {
 	color: rgba(255, 255, 255, .75);
 	border: 2px solid #eee;
 	margin: 10px 5px;
+	border-radius: 20px;
+	padding: 10px;
 }
 
 .email-list-section input[type=text]:focus {
+	outline: none;
+	color: #fff;
+}
+
+.email-list-section input[type=text]::placeholder {
 	outline: none;
 	color: #fff;
 }
