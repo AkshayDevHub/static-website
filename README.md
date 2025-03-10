@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chase Landing Page
 
 ## Overview
@@ -37,4 +36,9 @@ Chase-Landing-Page/
 │── index.html
 │── README.md
 ```
+
+![alt text](<Screenshot (105).png>)
+
+
+![alt text](<Screenshot (106).png>) 
 
